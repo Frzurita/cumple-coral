@@ -11,7 +11,7 @@ const App = () => {
         <div class="bark"></div>
         <div class="front">
           <h1>Feliz cumpleaños!!</h1>
-          <img src={tarta}  width={'200px'} height={'190px'}/>
+          <img src={tarta}  width={'200px'} height={'190px'} alt='cake'/>
           <h3>One last surprise!</h3>
         </div>
       </div>

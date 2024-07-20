@@ -18,8 +18,8 @@ h4 {
 	font-family: 'Amatic SC', cursive !important;
 }
 
-.color1{color:#1BBC9B}
-.color2{color:#C0392B}
+.color1{color: #14549e}
+.color2{color:#9a6700}
 
 .container {
 	margin-top: -30vh;
@@ -84,6 +84,7 @@ h4 {
 }
 
 .card .front {
+	color: #0b1d3d;
 	background: #e0e1dc;
 	height: 100%;
 	display: flex;

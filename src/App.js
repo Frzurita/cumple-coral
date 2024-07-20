@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import background from './flowers.jpeg'
 import tarta from './tarta.jpeg'
+import flowersPattern from "./flowers-patterns.jpg"
 
 const App = () => {
     return (
@@ -15,7 +16,7 @@ const App = () => {
           <h3>One last surprise!</h3>
         </div>
       </div>
-      <div class="details">
+      <div class="details" style={{backgroundImage: `url(${flowersPattern})`}}>
         <h2 class="color1">Nos congratula decir que has recibido</h2>
         <h3 class="color2 margin">Un vuelo de ida y vuelta a:</h3>
         <p>Japón!! </p>
